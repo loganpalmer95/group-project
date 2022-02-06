@@ -6,10 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>FoodFinder</title>
 </head>
 
+<header class="hero">
+    <h1 class="app-title">
+        FoodFinder!
+    </h1>
+</header>
+
 <body>
+    <main class="main-content">
+        <h2 class="app-info">
+            Welcome to FoodFinder! Please enter city came below and we'll show you some great restaruants nearby as well
+            as the local weather!
+        </h2>
+    <div class="search">
+        <h3 class="city-input">
+            Please enter city name
+        </h3>
+        <form class="city-form" id="city-entry">
+            <label class="form-label" for="cityname">City Name
+            </label>
+            <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
+            <button type="submit" class="button">
+                FindFood!
+            </button>
+        </form>
+    </div>
+
+    <div class="results-section">
+        <h2 class="local-restaurants">
+            Search Results
+        </h2>
+        <h3 class="history">
+            Previous Searches
+        </h3>
+        <button class="trash">
+            Clear Search History
+        </button>
+    </div>
+
+    </main>
+
     <script src="./assets/js/script.js"></script>
 </body>
 
