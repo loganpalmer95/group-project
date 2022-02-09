@@ -3,7 +3,7 @@ var form = document.querySelector(".testing form");
 var input = document.querySelector(".testing input");
 var list = document.querySelector(".ajax-section .cities ")
 var apiKey = "87af09b480e9430c23e9eeb789a8fa4f";
-var city = $('#city-weather')
+var cityWeather = $('#city-weather')
 
 //function to use the user searched city
 form.addEventListener("submit", e => {
@@ -11,7 +11,7 @@ form.addEventListener("submit", e => {
     let inputVal = input.value;
   
     function clearPrevousCity() {
-        city.empty();
+        cityWeather.empty();
     }
   
     //api url
