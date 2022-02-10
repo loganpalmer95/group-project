@@ -7,12 +7,15 @@ a{
   color:black;
 }
 
+
+/* Header style */
+
 .header {
   background: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
   width: 100%;
   z-index: 3;
+  position: absolute;
 }
 
 .header ul{
@@ -108,6 +111,82 @@ background:transparent;
   top:0;
 }
 
+/* End of header style */
+
+/*Body style*/
+
+.pure-g {
+    outline:1px solid red;
+  background-color: rgb(255, 255, 255);
+  padding-top: 60px;
+}
+
+.pure-u-1  {
+  position: relative;
+
+}
+
+/*Weather feature*/
+
+.btn {
+  background-color: lightblue;
+}
+
+.cards {
+  background-color: red;
+  width: fit-content;
+  padding: 8px;
+  margin: 5px 0px 0px 5px;
+}
+
+.current-weather-container {
+  display: flex;
+  justify-content: center;
+}
+
+.current-weather {
+  background-color: lightblue;
+  width: 500px;
+  padding: 8px;
+  margin: 5px 0px 0px 5px;
+  text-align: center;
+}
+
+.favorable {
+  background-color: lightgreen;
+}
+
+.moderate {
+  background-color: orange;
+}
+
+.severe {
+  background-color: red;
+}
+
+.color {
+  background-color: lightskyblue;
+  margin: 15px;
+  width: fit-content;
+  padding-right: 10px;
+}
+
+#forecast-card-container {
+  display: flex;
+}
+
+#forecast-card1,
+#forecast-card2,
+#forecast-card3,
+#forecast-card4,
+#forecast-card5 {
+  padding: 10px;
+  border-radius: 5%;
+}
+
+
+
+
 @media (min-width:48em){
   .header li {
     float: left;
@@ -122,6 +201,5 @@ background:transparent;
   }
   .header .menu-icon {
     display: none;
- 
-}
+ }
 }
