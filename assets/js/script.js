@@ -1,7 +1,7 @@
 //global variables
-var form = document.querySelector(".testing form");
-var input = document.querySelector(".testing input");
-var list = document.querySelector(".ajax-section .cities ")
+var form = document.querySelector(".search form")
+var input = document.querySelector(".search input")
+var list = document.querySelector(".weather-results .cities ")
 var apiKey = "87af09b480e9430c23e9eeb789a8fa4f";
 var cityWeather = $('#city-weather')
 
