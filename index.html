@@ -11,120 +11,123 @@
 
     <link rel="stylesheet" href="./assets/css/weather.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <title>Document</title>
-</head>
-    <header>
-        <h1>
-            <a href="/"></a> FoodFinder</a>
-        </h1>
-        <nav class="Quick-Links">
-            <ul>
-                <li><a href='#city-input'>City Search</a></li>
-                <li><a href='#restaurant search'>Find Restaurants</a></li>
-                <li><a href='#weather-search'>Display Weather</a></li>                  
-                <li><a href='#search-history'>Search History</a></li>
-            </ul>
-        </nav>
-            </header>
-    <body>
-        <main class="main-content">
-            <h2 class="app-info">
-                Welcome to FoodFinder! Enter your city name below and brose resturants nearby! (Don't forget to checkout our weather feature)
-            </h2>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>FoodFinder</title>
 </head>
 <header>
-    <h1 class="header-info">
-        <a href="/"></a>
-        FoodFinder
-        </a>
+    <h1>
+
     </h1>
     <nav class="Quick-Links">
         <ul>
-            <li>
-                <a href='#city-input'>
-                    City Search
-                </a>
-            </li>
-            <li>
-                <a href='#restaurant search'>
-                    Find Restaurants
-                </a>
-            </li>
-            <li>
-                <a href='#weather-search'>
-                    Display Weather
-                </a>
-            </li>
-            <li>
-                <a href='#search-history'>
-                    Search History
-                </a>
-            </li>
+            <li><a href='#city-input'>City Search</a></li>
+            <li><a href='#restaurant search'>Find Restaurants</a></li>
+            <li><a href='#weather-search'>Display Weather</a></li>
+            <li><a href='#search-history'>Search History</a></li>
         </ul>
     </nav>
+
 </header>
 
 <body>
+
     <main class="main-content">
         <h2 class="app-info">
-            Welcome to FoodFinder! Please enter city name below and we'll show you some great restaruants nearby as well as the local weather!
+            Welcome to FoodFinder! Enter your city name below and brose resturants nearby! (Don't forget to checkout our
+            weather feature!)
         </h2>
 
-        <div class="search">
-            <h3 class="city-input">
-                 Enter city name
-            </h3>
-            <form class="city-form" id="city-entry">
-                <label class="form-label" for="cityname">
-                    City Name
-                </label>
-                <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
-                <button type="submit" class="button">
-                    FindFood!
-                </button>
-            </form>
-        </div>
-        <div class="results-section">
-            <h2 class="local-restaurants" id="restaurant search">
-                Local Restaurants
-            </h2>
-            <h2 class="weather" id="weather-search">
-                Local Weather
-            </h2>
-            <div class="weather-results">
-                <ul class="cities" id="city-weather">
-
+        </head>
+        <header>
+            <h1 class="header-info">
+                <a href="/"></a>
+                FoodFinder
+                </a>
+            </h1>
+            <nav class="Quick-Links">
+                <ul>
+                    <li>
+                        <a href='#city-input'>
+                            City Search
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#restaurant search'>
+                            Find Restaurants
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#weather-search'>
+                            Display Weather
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#search-history'>
+                            Search History
+                        </a>
+                    </li>
                 </ul>
+            </nav>
+        </header>
+
+        <body>
+
+
+            <div class="search">
+                <h3 class="city-input">
+                    Enter city name
+                </h3>
+                <form class="city-form" id="city-entry">
+                    <label class="form-label" for="cityname">
+                        City Name
+                    </label>
+                    <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="button">
+                        FindFood!
+                    </button>
+                </form>
             </div>
-            <h3 class="history" id="search-history">
-                Previous Searches
-            </h3>
-            <button class="trash" id="clear-search">
-                Clear Search History
-            </button>
-        </div>
-      
-        </main>
-        <script src="./assets/js/script.js"></script>
-    </body>
-    </html>
-        <!--footer-->
-    <footer>
-        <h2>Thank you for using our app
-            <h4>Created by Chanelle Newsome, Ernest Ransome, Jared Templeton, John V, and Logan Palmer </h4>
-            </h2>
-        
-        <a href="#">Read Our Privacy Policy
-        &copy; 2022 FoodFinder, Inc.</a><br />
-    </footer>
-</body>
-</html>
-=======
+            <div class="results-section">
+                <h2 class="local-restaurants" id="restaurant search">
+                    Local Restaurants
+                </h2>
+                <h2 class="weather" id="weather-search">
+                    Local Weather
+                </h2>
+                <div class="weather-results">
+                    <ul class="cities" id="city-weather">
+
+                    </ul>
+                </div>
+                <h3 class="history" id="search-history">
+                    Previous Searches
+                </h3>
+                <button class="trash" id="clear-search">
+                    Clear Search History
+                </button>
+            </div>
+
     </main>
     <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
+<!--footer-->
+<footer>
+    <h2>Thank you for using our app
+        <h4>Created by Chanelle Newsome, Ernest Ransome, Jared Templeton, John V, and Logan Palmer </h4>
+    </h2>
+
+    <a href="#">Read Our Privacy Policy
+        &copy; 2022 FoodFinder, Inc.</a><br />
+</footer>
+</body>
+
+</html>
+=======
+</main>
+<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
