@@ -34,9 +34,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: blue;
-  font-size: larger;
-  border-bottom: 1px solid blue;
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 footer a {
@@ -46,9 +45,8 @@ footer a {
 }
 
 footer a:hover {
-  color: blue;
-  font-size: larger;
-  border-bottom: 1px solid blue;
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 body main h2 {
@@ -62,3 +60,4 @@ footer {
 body div {
   padding: 10px 15px;
 }
+
